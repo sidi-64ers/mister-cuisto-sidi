@@ -1,0 +1,15 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 15% 35% 40% 10%;
+}
+
+.gridItem{
+    padding: 10px;
+    text-align: center;
+}
+
+img{
+    width: 250 px;
+    height: 250 px;
+}
