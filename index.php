@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Fabrique du petit mangé</title>
     <link rel='stylesheet' href='style.css'/>
+    <script src="https://kit.fontawesome.com/ca26e0e1ce.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -29,10 +30,16 @@
           </div>
         </header>
      <br/>
+     <i class="fab fa-facebook-square"></i>
+     <i class="fab fa-tripadvisor"></i>
+     <i class="fab fa-twitter"></i>
+     <br> 
+
     <div class="photo">
-        <img src="https://cdn.discordapp.com/attachments/623484333415464960/623484456048525343/restaurant-7-mers-bandeau.jpg" alt"photo du resto"/>
+        <img src="img/restaurant-7-mers-bandeau.jpg" alt="photo du resto"/>
     </div>   
-        <br/>
+        <br>
+     
         <p>Cyprum itidem insulam procul a continenti discretam et portuosam inter municipia crebra urbes duae faciunt claram Salamis et Paphus, altera Iovis delubris altera Veneris templo insignis. tanta autem tamque multiplici fertilitate abundat rerum omnium eadem Cyprus ut nullius externi indigens adminiculi indigenis viribus a fundamento ipso carinae ad supremos usque carbasos aedificet onerariam navem omnibusque armamentis instructam mari committat.
 
         Non ergo erunt homines deliciis diffluentes audiendi, si quando de amicitia, quam nec usu nec ratione habent cognitam, disputabunt. Nam quis est, pro deorum fidem atque hominum! qui velit, ut neque diligat quemquam nec ipse ab ullo diligatur, circumfluere omnibus copiis atque in omnium rerum abundantia vivere? Haec enim est tyrannorum vita nimirum, in qua nulla fides, nulla caritas, nulla stabilis benevolentiae potest esse fiducia, omnia semper suspecta atque sollicita, nullus locus amicitiae.
@@ -41,8 +48,8 @@
         pendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris totidemque remanerent magistris.
         </p>
           <br>
-        
-
+    
+        <br>
     <footer>
         <div class="footer">
         <p><em>contact - mentions légales</em></p>

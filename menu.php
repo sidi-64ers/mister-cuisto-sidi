@@ -7,6 +7,8 @@
     <title>La Fabrique du petit mangé</title>
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='style2.css'/>
+    <link rel='stylesheet' href='style3.css'/>
+    <script src="https://kit.fontawesome.com/ca26e0e1ce.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -30,3 +32,8 @@
           </div>
         </header>
      <br/>
+
+     <i class="fab fa-facebook-square"></i>
+     <i class="fab fa-tripadvisor"></i>
+     <i class="fab fa-twitter"></i>
+     

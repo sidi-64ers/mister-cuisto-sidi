@@ -2,6 +2,8 @@
 .grid-container{
     display: grid;
     grid-template-columns: 15% 35% 40% 10%;
+    font-family: 'Verdana', 'arial', 'sans-sérif';
+    color: hsl(220, 100%, 10%);
 }
 
 .gridItem{
@@ -13,3 +15,11 @@ img{
     width: 250 px;
     height: 250 px;
 }
+
+h2{
+    font-family: 'Verdana', 'arial', 'sans-sérif';
+    color: hsl(220, 100%, 10%);
+    font-weight: bold;
+    text-align: center;
+}
+
