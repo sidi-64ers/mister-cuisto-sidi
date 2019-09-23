@@ -8,6 +8,8 @@
     <link rel='stylesheet' href='style.css'/>
     <link rel='stylesheet' href='style2.css'/>
     <link rel='stylesheet' href='style3.css'/>
+    <link rel='stylesheet' href='style4.css'/>
+    <link rel='stylesheet' href='style5.css'/>
     <script src="https://kit.fontawesome.com/ca26e0e1ce.js" crossorigin="anonymous"></script>
   </head>
 
@@ -17,18 +19,22 @@
         <h1>La Fabrique du petit mangé</h1>
 
         <header class="header">
+
         
-          
         <nav>
          <ul>
-            <li>Notre Chef</li>
-            <li>Notre concept</li>
-            <li>Menus</li>
-            <li>Réserver</li>
-            <li>Livre d'Or</li>
+            <li><a href="index3.php">Notre Chef</a></li>
+            <li><a href="index3.php">Notre concept</a></li>
+            <li><a href="index2.php">Menus</a></li>
+            <li><a href="index4.php">Réserver</a></li>
+            <li><a href="index5.php">Livre d'Or</a></li>
 
         </ul>
         </nav>
+
+        <div class="photo">
+        <img src="img/cuisine-cartoon.jpg" alt="photo de cuisine"/>
+        </div> 
           </div>
         </header>
      <br/>

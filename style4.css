@@ -1,0 +1,38 @@
+ input:focus:required{
+    border:1px solid red;   
+}
+
+
+input:focus{
+    border:1px solid yellow;
+    box-shadow: 10px 5px 5px grey;
+    border-radius: 5px;
+}
+
+input:required:valid{
+    border:2px solid green;
+}
+
+
+ 
+
+em {
+    font-weight: bold;
+    color: red;
+}
+
+input[type=submit]{
+    width: 150px;
+    padding: 10px;
+    font-style: verdana;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(220, 100%, 10%);
+}
+
+#bouton{
+    width: 250px;
+    height: 75px;
+}

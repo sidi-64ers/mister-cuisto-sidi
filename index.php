@@ -19,11 +19,11 @@
           
         <nav>
          <ul>
-            <li>Notre Chef</li>
-            <li>Notre concept</li>
-            <li>Menus</li>
-            <li>Réserver</li>
-            <li>Livre d'Or</li>
+            <li><a href="index3.php">Notre Chef</a></li>
+            <li><a href="index3.php">Notre concept</a></li>
+            <li><a href="index2.php">Menus</a></li>
+            <li><a href="index4.php">Réserver</a></li>
+            <li>Livre d'Or</a></li>
 
         </ul>
         </nav>
@@ -36,7 +36,7 @@
      <br> 
 
     <div class="photo">
-        <img src="img/restaurant-7-mers-bandeau.jpg" alt="photo du resto"/>
+        <img src="img/cuisine-cartoon.jpg" alt="photo de cuisine"/>
     </div>   
         <br>
      
