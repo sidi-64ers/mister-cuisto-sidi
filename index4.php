@@ -1,6 +1,6 @@
 <?php require "menu.php";?>
 <br>
-<h2>RESERVATION<h2>
+<h2 id="ancreservation">RESERVATION<h2>
 <br><br><br>
 <form action="collecte-resa.php" method="post">
     <p>

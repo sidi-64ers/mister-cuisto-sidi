@@ -1,6 +1,6 @@
 <?php require "menu.php";?>
 <br>
-<h2>LIVRE d'OR<h2>
+<h2 id="ancrelivredor">LIVRE d'OR<h2>
 <br><br><br>
 <h4>Votre avis nous intéresse</h4>
 <form method="post" action="collectavis.php">

@@ -1,6 +1,6 @@
 <?php require "menu.php";?>
 <br>
-<h2>Menus de la semaine</h2>
+<h2 id="ancremenu">Menus de la semaine</h2>
 
     <div class="grid-container">
         <div class="gridItem">Mardi</div>
