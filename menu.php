@@ -21,8 +21,8 @@
         
         <nav>
          <ul>
-            <li><a href="index3.php">Notre Chef</a></li>
-            <li><a href="index3.php">Notre concept</a></li>
+            <li><a href="#ancrenotrechef">Notre Chef</a></li>
+            <li><a href="#ancreconcept">Notre concept</a></li>
             <li><a href="index2.php">Menus</a></li>
             <li><a href="index4.php">Réserver</a></li>
             <li><a href="index5.php">Livre d'Or</a></li>
