@@ -16,39 +16,34 @@ catch(Exception $e)
 }
     /* On test si les champs spécifiés du formulaire sont remplis, 
        sécurité supplémentaire du code HTML required */
-if (!empty($_POST['nom']) && !empty($_POST['e-mail']) && 
-!empty($_POST['tel'])); 
+if (!empty($_POST['nom']) && !empty($_POST['email']) && 
+!empty($_POST['avis'])); 
 
     try {
         // var_dump($_POST);
         //méthode ->prepare plus sécurisée que ->query 
-        $req = $bdd->prepare('INSERT INTO clients( prenom, nom, email, adresse, resa, convives, numero)
-        VALUES (:prenom,:nom,:email,:adresse,:resa,:convives,:numero)');
+        $req = $bdd->prepare('INSERT INTO commentaires( prenom, nom, email, avis)
+        VALUES (:prenom,:nom,:email,:avis)');
             // possibilité de changer le sens des champs à condition de mettre le même sens dans INSERT INTO et VALUES 
     
             //lier les champs 
             // $req->bindParam(':id', null);
             $req->bindParam(':prenom', $_POST["prenom"]);
             $req->bindParam(':nom', $_POST["nom"]);
-            $req->bindParam(':email', $_POST["e-mail"]);
-            $req->bindParam(':adresse', $_POST["adresse"]); 
-            $req->bindParam(':resa', $_POST["resa"]); 
-            $req->bindParam(':convives', $_POST["convives"]);
-            $req->bindParam(':numero', $_POST["tel"]);
+            $req->bindParam(':email', $_POST["email"]);
+            $req->bindParam(':avis', $_POST["avis"]); 
+         
             // var_dump($bdd);
     $req->execute();
     
-    echo "c'est noté !";
+    echo "merci pour votre commentaire !";
 
     } 
     catch (PDOException $e) {
 
-    echo ' reservation non envoyée '.$e->getMessage();
+    echo ' avis non envoyée '.$e->getMessage();
     }    
 
 
 
 ?>
-
-
-

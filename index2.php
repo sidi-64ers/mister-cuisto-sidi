@@ -46,13 +46,13 @@
           <div class="gridItem">9.50€</div>
       </div>
     <br>
-      <footer>
+      <!--<footer>
         <div class="footer">
         <p><em>contact - mentions légales</em></p>
         </div>
-    </footer>
+    </footer>-->
 
-
+    <?php require "footer.php";?>
 
 
 

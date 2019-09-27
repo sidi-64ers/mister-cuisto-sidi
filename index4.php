@@ -2,7 +2,7 @@
 <br>
 <h2>RESERVATION<h2>
 <br><br><br>
-<form>
+<form action="collecte-resa.php" method="post">
     <p>
         <label for="prenom">Votre prénom</label> :
         <input type="text" name="prenom" id="prenom" placeholder="votre prénom"/><br>
@@ -19,12 +19,12 @@
         <label for="resa">Date </label> :
         <input type="date" name="resa" id="resa" /><br>
 
-        Quand ?<br>
+        <!--Quand ?<br>
         <label for="midi">midi </label> 
-        <input type="checkbox" name="midi" id="midi" />
+        <input type="checkbox" name="midi" id="midi" /> 
 
         <label for="soir">soir </label> 
-        <input type="checkbox" name="soir" id="soir" /><br>
+        <input type="checkbox" name="soir" id="soir" /><br> -->
 
         <label for="convives">Nombre de personne </label> :
         <input type="number" name="convives" id="convives" /><br>
@@ -43,10 +43,12 @@
 
 <h2>NOUS CONTACTER<H2>
 <br><br><br>
-<form>
-    <p><a href="mailto:lafabriquedupetitmangé@gmail.com">ENVOYEZ-NOUS UN E.MAIL.</a></p> 
+    <p> id="email">
+        <a href="mailto:lafabriquedupetitmangé@gmail.com">ENVOYEZ-NOUS UN E.MAIL.</a>
+    </p> 
 
-
+    <br>
+    <?php require "footer.php";?>
     
 
 

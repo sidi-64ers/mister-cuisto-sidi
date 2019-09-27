@@ -5,11 +5,9 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Fabrique du petit mangé</title>
-    <link rel='stylesheet' href='style.css'/>
-    <link rel='stylesheet' href='style2.css'/>
-    <link rel='stylesheet' href='style3.css'/>
-    <link rel='stylesheet' href='style4.css'/>
-    <link rel='stylesheet' href='style5.css'/>
+    <link rel='stylesheet' href='menu.css'/>
+    
+
     <script src="https://kit.fontawesome.com/ca26e0e1ce.js" crossorigin="anonymous"></script>
   </head>
 

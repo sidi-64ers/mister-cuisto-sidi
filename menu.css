@@ -1,6 +1,178 @@
- i {
+
+body {
+  width : 100%;
+  background-color: navajowhite;
+  font-family: 'Verdana', 'arial', 'sans-sérif';
+  text-decoration: none;
+}
+
+.page {
+  margin: 0 auto ;
+  height: 100%;
+  width:100%;
+  padding: 0 ;
+  font-family: 'calibri', 'helvetica', sans-serif;
+  text-decoration: none;
+}
+
+
+.photo img{
+ 
+  width: 100%;  
+}
+
+h1{
+    color: hsl(220, 100%, 10%);
+    font-size: 40px;
+    font-family: 'Verdana';
+    text-align: center;
+    
+    
+  }
+
+header {
+    background-color: hsl(220, 100%, 10%);
+    width: 100%;
+    z-index: 10;
+    border-radius: 5px;
+    text-decoration: none;
+    
+    
+  }
+  
+  
+  nav {
+    margin: 0;
+    padding: 20px 0;
+    border: 5px;
+    width: 100%;
+    
+  }
+  
+  a{
+    
+  color: navajowhite;
+  text-decoration: none;
+
+}
+
+nav li {
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1px;  
+  display: inline;
+  padding-right: 0;
+  vertical-align: baseline;
+  margin-left: 60px;
+  text-decoration: none;
+  
+}
+
+.li {
+  text-decoration : none;
+}
+
+i {
   display: block;
-  font-size: 80px;
+  font-size: 25px;
+  color: hsl(220, 100%, 10%);
+}
+  
+
+p {
+  margin: auto;
+  text-align: justify;
+  width: 80%;
+}
+
+@media screen and (max-width: 650px) {
+
+ .header {
+   display: none;
+   
+ }
+ .li {
+   text-align: center;
+ }
+ 
+}
+
+/*menu*/
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 15% 35% 40% 10%;
+  grid-template-rows: auto;
+  font-family: 'Verdana', 'arial', 'sans-sérif';
   color: hsl(220, 100%, 10%);
 }
 
+.gridItem{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.gridItem img{
+  width: 250px !important;
+  height: 250px !important;
+}
+
+h2{
+  font-family: 'Verdana', 'arial', 'sans-sérif';
+  color: hsl(220, 100%, 10%);
+  font-weight: bold;
+  text-align: center;
+}
+
+#grid-container{
+  color: hsl(220, 100%, 10%);
+
+}
+.grid-container{
+  margin-left: 150px;
+  text-align: justify;
+}
+
+
+/*formulaire*/
+
+input:focus:required{
+  border:1px solid red;   
+}
+
+
+input:focus{
+  border:1px solid yellow;
+  box-shadow: 10px 5px 5px grey;
+  border-radius: 5px;
+}
+
+input:required:valid{
+  border:2px solid green;
+}
+
+
+
+
+em {
+  font-weight: bold;
+  color: red;
+}
+
+input[type=submit]{
+  width: 150px;
+  padding: 10px;
+  font-style: verdana;
+}
+
+#email {
+  text-decoration: none;
+  color:hsl(220, 100%, 10%);
+}
+
+#bouton{
+  width: 250px;
+  height: 75px;
+}

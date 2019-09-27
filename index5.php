@@ -1,24 +1,28 @@
 <?php require "menu.php";?>
 <br>
-<h2>Livre d'Or</h2>
+<h2>LIVRE d'OR<h2>
 <br><br><br>
-<form>
+<h4>Votre avis nous intéresse</h4>
+<form method="post" action="collectavis.php">
 <p>
+<label for="prenom">Votre prénom</label> :
+        <input type="text" name="prenom" id="prenom" placeholder="votre prénom"/><br>
 
-Votre avis nous intéresse !<br><br>
-<label for="nom">Votre nom</label> :
-        <input type="text" name="nom" id="nom" required /><br><br>
+        <label for="nom">Votre nom<em>*</em></label> :
+        <input type="text" name="nom" id="nom" required placeholder="votre nom"/><br>
 
-        <label for="e.mail">Votre e.mail<em>*</em></label> :
-        <input type="text" name="e.mail" id="e.mail" required /><br>
-<label for="livre d'or">
+        <label for="email">Votre e.mail<em>*</em></label> :
+        <input type="text" name="email" id="email" required placeholder="adresse@mail.com"/><br>
+    
+    <br/>
+    <textarea name="avis" id="avis" rows="10" cols="50">
+    </textarea>
+    <br><br>
+    <input type="submit" value="Envoyer votre avis" id="bouton"/>
 
-</label>
-<br/>
-<textarea name="livre d'or" id="livre d'or" rows="10" cols="50">
-laissez nous votre avis ici.
-</textarea>
-
-<input type="submit" value="Envoyer" id="bouton"/>
+        <input type="reset" value="Réinitialiser" id="bouton"/>
 </p>
 </form>
+
+
+<?php require "footer.php";?>
